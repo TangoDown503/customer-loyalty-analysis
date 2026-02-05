@@ -1,0 +1,4 @@
+pandas
+-U scikit-learn
+matplotlib
+seaborn
