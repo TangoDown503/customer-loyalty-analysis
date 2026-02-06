@@ -81,7 +81,7 @@ Analyzes 15,176 airline loyalty program customers to:
 **Deployment:** AWS-native architecture
 - **Data Pipeline:** AWS Glue, S3, Step Functions
 - **Training:** SageMaker (monthly churn, quarterly clustering)
-- **Predictions:** SageMaker Notebook Jobs (weekly batch)
+- **Predictions:** SageMaker Jobs (weekly batch)
 - **Monitoring:** CloudWatch, SageMaker Model Monitor
 - **Dashboards:** Amazon QuickSight
 
@@ -99,7 +99,8 @@ Analyzes 15,176 airline loyalty program customers to:
 2. **Create and activate virtual environment**
 ```bash
     python3 -m venv .venv
-    source .venv/bin/activate
+    source .venv/bin/activate     #for linux
+    source .venv/Scripts/Activate #for windows
 ```
 
 3. **Install dependencies:**
@@ -110,13 +111,14 @@ Analyzes 15,176 airline loyalty program customers to:
 4. **Run models:**
 ```bash
    # Train churn model
-   python src/train_churn_model.py
+   python src/train_rf.py
    
    # Train clustering model
-   python src/train_clustering_model.py
+   python src/train_kmeans.py
    
    # Make predictions
-   python src/predict.py
+   python src/rf_predict.py
+   python src/kmeans_predict.py
 ```
 
 ---
