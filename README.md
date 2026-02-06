@@ -163,10 +163,3 @@ Analyzes 15,176 airline loyalty program customers to:
 
 MIT License - Free to use, modify, and distribute.
 
----
-
-##  Links
-
-- **Kaggle Dataset:** [Link to dataset]
-- **Project Presentation:** [Link to slides]
-- **Dashboard:** [Link to QuickSight dashboard]

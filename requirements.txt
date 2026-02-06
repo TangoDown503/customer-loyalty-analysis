@@ -1,4 +1,6 @@
+ipykernel
+notebook
 pandas
--U scikit-learn
+scikit-learn
 matplotlib
 seaborn

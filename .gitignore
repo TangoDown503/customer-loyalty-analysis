@@ -9,3 +9,11 @@ model.ipynb
 # Except keep this readme
 !README.md
 !.gitkeep
+
+#Keep folder structure 
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!src/.gitkeep
+!predictions/.gitkeep
+
